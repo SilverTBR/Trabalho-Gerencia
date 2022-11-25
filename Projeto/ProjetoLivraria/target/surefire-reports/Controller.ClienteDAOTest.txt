@@ -1,4 +1,34 @@
 -------------------------------------------------------------------------------
 Test set: Controller.ClienteDAOTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.183 s - in Controller.ClienteDAOTest
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.597 s <<< FAILURE! - in Controller.ClienteDAOTest
+cpfVazioTest  Time elapsed: 0.214 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.ClienteDAOTest.setCaminhos(ClienteDAOTest.java:46)
+	at Controller.ClienteDAOTest.cpfVazioTest(ClienteDAOTest.java:196)
+
+cpfInvalidoTest  Time elapsed: 0.059 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.ClienteDAOTest.setCaminhos(ClienteDAOTest.java:46)
+	at Controller.ClienteDAOTest.cpfInvalidoTest(ClienteDAOTest.java:173)
+
+registroUnicoTest  Time elapsed: 0.051 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.ClienteDAOTest.setCaminhos(ClienteDAOTest.java:46)
+	at Controller.ClienteDAOTest.registroUnicoTest(ClienteDAOTest.java:68)
+
+invalidoBairroTest  Time elapsed: 0.156 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.ClienteDAOTest.setCaminhos(ClienteDAOTest.java:46)
+	at Controller.ClienteDAOTest.invalidoBairroTest(ClienteDAOTest.java:150)
+
+registroUnico2Test  Time elapsed: 0.051 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.ClienteDAOTest.setCaminhos(ClienteDAOTest.java:46)
+	at Controller.ClienteDAOTest.registroUnico2Test(ClienteDAOTest.java:88)
+
+registroDuploTest  Time elapsed: 0.051 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.ClienteDAOTest.setCaminhos(ClienteDAOTest.java:46)
+	at Controller.ClienteDAOTest.registroDuploTest(ClienteDAOTest.java:111)
+
