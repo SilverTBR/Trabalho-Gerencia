@@ -1,4 +1,84 @@
 -------------------------------------------------------------------------------
 Test set: Controller.AluguelDAOTest
 -------------------------------------------------------------------------------
-Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.855 s - in Controller.AluguelDAOTest
+Tests run: 16, Failures: 0, Errors: 16, Skipped: 0, Time elapsed: 1.474 s <<< FAILURE! - in Controller.AluguelDAOTest
+DevolucaoRetornaParaLista  Time elapsed: 0.803 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.DevolucaoRetornaParaLista(AluguelDAOTest.java:549)
+
+DevolucaoRealizadaTest  Time elapsed: 0.131 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.DevolucaoRealizadaTest(AluguelDAOTest.java:520)
+
+registroDuplo2Test  Time elapsed: 0.029 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.registroDuplo2Test(AluguelDAOTest.java:285)
+
+pesquisaTabelaAluguelTest  Time elapsed: 0.031 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.pesquisaTabelaAluguelTest(AluguelDAOTest.java:395)
+
+alterandoDataDevTest  Time elapsed: 0.03 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.alterandoDataDevTest(AluguelDAOTest.java:345)
+
+DevolucaoNaoRealizadaTest  Time elapsed: 0.14 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.DevolucaoNaoRealizadaTest(AluguelDAOTest.java:493)
+
+invalidoDataDevTest  Time elapsed: 0.026 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.invalidoDataDevTest(AluguelDAOTest.java:320)
+
+pesquisaTabelaClienteTest  Time elapsed: 0.028 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.pesquisaTabelaClienteTest(AluguelDAOTest.java:421)
+
+idInexistenteTest  Time elapsed: 0.026 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.idInexistenteTest(AluguelDAOTest.java:474)
+
+alterandoDataAluguelTest  Time elapsed: 0.028 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.alterandoDataAluguelTest(AluguelDAOTest.java:370)
+
+registroDuploTest  Time elapsed: 0.027 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.registroDuploTest(AluguelDAOTest.java:252)
+
+pesquisaTabelaLivroTest  Time elapsed: 0.03 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.pesquisaTabelaLivroTest(AluguelDAOTest.java:448)
+
+registroSimples2Test  Time elapsed: 0.027 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.registroSimples2Test(AluguelDAOTest.java:167)
+
+registroSimples3Test  Time elapsed: 0.032 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.registroSimples3Test(AluguelDAOTest.java:196)
+
+registroSimples4Test  Time elapsed: 0.03 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.registroSimples4Test(AluguelDAOTest.java:225)
+
+registroSimplesTest  Time elapsed: 0.034 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.registroSimplesTest(AluguelDAOTest.java:140)
+

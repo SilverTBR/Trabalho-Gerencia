@@ -1,77 +1,191 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Controller.AluguelDAOTest" time="7.855" tests="16" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Controller.AluguelDAOTest" time="1.474" tests="16" errors="16" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="18"/>
+    <property name="java.specification.version" value="19"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\Guilherme Andreotti\Desktop\pasta trabalho 2\Trabalho-integracao\Projeto\ProjetoLivraria\target\test-classes;C:\Users\Guilherme Andreotti\Desktop\pasta trabalho 2\Trabalho-integracao\Projeto\ProjetoLivraria\target\classes;C:\Users\Guilherme Andreotti\.m2\repository\org\postgresql\postgresql\42.5.0\postgresql-42.5.0.jar;C:\Users\Guilherme Andreotti\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\Guilherme Andreotti\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Guilherme Andreotti\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Guilherme Andreotti\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Guilherme Andreotti\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Guilherme Andreotti\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\Guilherme Andreotti\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Guilherme Andreotti\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\Eduardo\Documents\GitHub\Trabalho-Gerencia\Projeto\ProjetoLivraria\target\test-classes;C:\Users\Eduardo\Documents\GitHub\Trabalho-Gerencia\Projeto\ProjetoLivraria\target\classes;C:\Users\Eduardo\.m2\repository\org\postgresql\postgresql\42.5.0\postgresql-42.5.0.jar;C:\Users\Eduardo\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\Eduardo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Eduardo\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Eduardo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Eduardo\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Eduardo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\Eduardo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Eduardo\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="America/Sao_Paulo"/>
     <property name="os.name" value="Windows 10"/>
-    <property name="java.vm.specification.version" value="18"/>
+    <property name="java.vm.specification.version" value="19"/>
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\GUILHE~1\AppData\Local\Temp\surefire7615443716269363091\surefirebooter11079328986799384561.jar C:\Users\Guilherme Andreotti\AppData\Local\Temp\surefire7615443716269363091 2022-11-23T22-49-24_917-jvmRun1 surefire1661283093729511389tmp surefire_05312989944256061454tmp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="sun.java.command" value="C:\Users\Eduardo\AppData\Local\Temp\surefire14531913457679080236\surefirebooter12533611635207758172.jar C:\Users\Eduardo\AppData\Local\Temp\surefire14531913457679080236 2022-11-24T21-11-52_996-jvmRun1 surefire13794551991585698678tmp surefire_017352015326745944196tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="Controller.AluguelDAOTest"/>
-    <property name="surefire.test.class.path" value="C:\Users\Guilherme Andreotti\Desktop\pasta trabalho 2\Trabalho-integracao\Projeto\ProjetoLivraria\target\test-classes;C:\Users\Guilherme Andreotti\Desktop\pasta trabalho 2\Trabalho-integracao\Projeto\ProjetoLivraria\target\classes;C:\Users\Guilherme Andreotti\.m2\repository\org\postgresql\postgresql\42.5.0\postgresql-42.5.0.jar;C:\Users\Guilherme Andreotti\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\Guilherme Andreotti\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Guilherme Andreotti\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Guilherme Andreotti\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Guilherme Andreotti\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Guilherme Andreotti\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\Guilherme Andreotti\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Guilherme Andreotti\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Eduardo\Documents\GitHub\Trabalho-Gerencia\Projeto\ProjetoLivraria\target\test-classes;C:\Users\Eduardo\Documents\GitHub\Trabalho-Gerencia\Projeto\ProjetoLivraria\target\classes;C:\Users\Eduardo\.m2\repository\org\postgresql\postgresql\42.5.0\postgresql-42.5.0.jar;C:\Users\Eduardo\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\Eduardo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Eduardo\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Eduardo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Eduardo\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Eduardo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\Eduardo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Eduardo\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\Guilherme Andreotti"/>
+    <property name="user.home" value="C:\Users\Eduardo"/>
     <property name="user.language" value="pt"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2022-08-18"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2.1"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\Guilherme Andreotti\Desktop\pasta trabalho 2\Trabalho-integracao\Projeto\ProjetoLivraria"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="basedir" value="C:\Users\Eduardo\Documents\GitHub\Trabalho-Gerencia\Projeto\ProjetoLivraria"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\GUILHE~1\AppData\Local\Temp\surefire7615443716269363091\surefirebooter11079328986799384561.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Eduardo\AppData\Local\Temp\surefire14531913457679080236\surefirebooter12533611635207758172.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
-    <property name="user.name" value="Guilherme Andreotti"/>
+    <property name="java.runtime.version" value="19.0.1+10-21"/>
+    <property name="user.name" value="Eduardo"/>
+    <property name="stdout.encoding" value="Cp1252"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-14\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
-    <property name="localRepository" value="C:\Users\Guilherme Andreotti\.m2\repository"/>
+    <property name="maven.ext.class.path" value="D:\NetBeans-15\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\Eduardo\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\GUILHE~1\AppData\Local\Temp\"/>
-    <property name="java.version" value="18.0.2.1"/>
-    <property name="user.dir" value="C:\Users\Guilherme Andreotti\Desktop\pasta trabalho 2\Trabalho-integracao\Projeto\ProjetoLivraria"/>
+    <property name="java.io.tmpdir" value="C:\Users\Eduardo\AppData\Local\Temp\"/>
+    <property name="java.version" value="19.0.1"/>
+    <property name="user.dir" value="C:\Users\Eduardo\Documents\GitHub\Trabalho-Gerencia\Projeto\ProjetoLivraria"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;H:\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Guilherme Andreotti\AppData\Local\Microsoft\WindowsApps;H:\Programas e Instaladores\Microsoft VS Code\bin;H:\tex\miktex\bin\x64\;C:\Users\Guilherme Andreotti\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Eduardo\AppData\Local\Microsoft\WindowsApps;C:\Users\Eduardo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Eduardo\AppData\Local\GitHubDesktop\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="java.vm.version" value="19.0.1+10-21"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="62.0"/>
+    <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="DevolucaoRetornaParaLista" classname="Controller.AluguelDAOTest" time="0.563"/>
-  <testcase name="DevolucaoRealizadaTest" classname="Controller.AluguelDAOTest" time="0.321"/>
-  <testcase name="registroDuplo2Test" classname="Controller.AluguelDAOTest" time="0.357"/>
-  <testcase name="pesquisaTabelaAluguelTest" classname="Controller.AluguelDAOTest" time="0.327"/>
-  <testcase name="alterandoDataDevTest" classname="Controller.AluguelDAOTest" time="0.328"/>
-  <testcase name="DevolucaoNaoRealizadaTest" classname="Controller.AluguelDAOTest" time="0.342"/>
-  <testcase name="invalidoDataDevTest" classname="Controller.AluguelDAOTest" time="2.506"/>
-  <testcase name="pesquisaTabelaClienteTest" classname="Controller.AluguelDAOTest" time="0.504"/>
-  <testcase name="idInexistenteTest" classname="Controller.AluguelDAOTest" time="0.363"/>
-  <testcase name="alterandoDataAluguelTest" classname="Controller.AluguelDAOTest" time="0.372"/>
-  <testcase name="registroDuploTest" classname="Controller.AluguelDAOTest" time="0.219"/>
-  <testcase name="pesquisaTabelaLivroTest" classname="Controller.AluguelDAOTest" time="0.279"/>
-  <testcase name="registroSimples2Test" classname="Controller.AluguelDAOTest" time="0.356"/>
-  <testcase name="registroSimples3Test" classname="Controller.AluguelDAOTest" time="0.334"/>
-  <testcase name="registroSimples4Test" classname="Controller.AluguelDAOTest" time="0.323"/>
-  <testcase name="registroSimplesTest" classname="Controller.AluguelDAOTest" time="0.332"/>
+  <testcase name="DevolucaoRetornaParaLista" classname="Controller.AluguelDAOTest" time="0.803">
+    <error message="Cannot invoke &quot;java.sql.Connection.prepareStatement(String, int, int)&quot; because &quot;this.connection&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.DevolucaoRetornaParaLista(AluguelDAOTest.java:549)
+</error>
+    <system-out><![CDATA[Falha na conexao, comando sql = org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+]]></system-out>
+  </testcase>
+  <testcase name="DevolucaoRealizadaTest" classname="Controller.AluguelDAOTest" time="0.131">
+    <error message="Cannot invoke &quot;java.sql.Connection.prepareStatement(String, int, int)&quot; because &quot;this.connection&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.DevolucaoRealizadaTest(AluguelDAOTest.java:520)
+</error>
+    <system-out><![CDATA[Falha na conexao, comando sql = org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+]]></system-out>
+  </testcase>
+  <testcase name="registroDuplo2Test" classname="Controller.AluguelDAOTest" time="0.029">
+    <error message="Cannot invoke &quot;java.sql.Connection.prepareStatement(String, int, int)&quot; because &quot;this.connection&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.registroDuplo2Test(AluguelDAOTest.java:285)
+</error>
+    <system-out><![CDATA[Falha na conexao, comando sql = org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+]]></system-out>
+  </testcase>
+  <testcase name="pesquisaTabelaAluguelTest" classname="Controller.AluguelDAOTest" time="0.031">
+    <error message="Cannot invoke &quot;java.sql.Connection.prepareStatement(String, int, int)&quot; because &quot;this.connection&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.pesquisaTabelaAluguelTest(AluguelDAOTest.java:395)
+</error>
+    <system-out><![CDATA[Falha na conexao, comando sql = org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+]]></system-out>
+  </testcase>
+  <testcase name="alterandoDataDevTest" classname="Controller.AluguelDAOTest" time="0.03">
+    <error message="Cannot invoke &quot;java.sql.Connection.prepareStatement(String, int, int)&quot; because &quot;this.connection&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.alterandoDataDevTest(AluguelDAOTest.java:345)
+</error>
+    <system-out><![CDATA[Falha na conexao, comando sql = org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+]]></system-out>
+  </testcase>
+  <testcase name="DevolucaoNaoRealizadaTest" classname="Controller.AluguelDAOTest" time="0.14">
+    <error message="Cannot invoke &quot;java.sql.Connection.prepareStatement(String, int, int)&quot; because &quot;this.connection&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.DevolucaoNaoRealizadaTest(AluguelDAOTest.java:493)
+</error>
+    <system-out><![CDATA[Falha na conexao, comando sql = org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+]]></system-out>
+  </testcase>
+  <testcase name="invalidoDataDevTest" classname="Controller.AluguelDAOTest" time="0.026">
+    <error message="Cannot invoke &quot;java.sql.Connection.prepareStatement(String, int, int)&quot; because &quot;this.connection&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.invalidoDataDevTest(AluguelDAOTest.java:320)
+</error>
+    <system-out><![CDATA[Falha na conexao, comando sql = org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+]]></system-out>
+  </testcase>
+  <testcase name="pesquisaTabelaClienteTest" classname="Controller.AluguelDAOTest" time="0.028">
+    <error message="Cannot invoke &quot;java.sql.Connection.prepareStatement(String, int, int)&quot; because &quot;this.connection&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.pesquisaTabelaClienteTest(AluguelDAOTest.java:421)
+</error>
+    <system-out><![CDATA[Falha na conexao, comando sql = org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+]]></system-out>
+  </testcase>
+  <testcase name="idInexistenteTest" classname="Controller.AluguelDAOTest" time="0.026">
+    <error message="Cannot invoke &quot;java.sql.Connection.prepareStatement(String, int, int)&quot; because &quot;this.connection&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.idInexistenteTest(AluguelDAOTest.java:474)
+</error>
+    <system-out><![CDATA[Falha na conexao, comando sql = org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+]]></system-out>
+  </testcase>
+  <testcase name="alterandoDataAluguelTest" classname="Controller.AluguelDAOTest" time="0.028">
+    <error message="Cannot invoke &quot;java.sql.Connection.prepareStatement(String, int, int)&quot; because &quot;this.connection&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.alterandoDataAluguelTest(AluguelDAOTest.java:370)
+</error>
+    <system-out><![CDATA[Falha na conexao, comando sql = org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+]]></system-out>
+  </testcase>
+  <testcase name="registroDuploTest" classname="Controller.AluguelDAOTest" time="0.027">
+    <error message="Cannot invoke &quot;java.sql.Connection.prepareStatement(String, int, int)&quot; because &quot;this.connection&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.registroDuploTest(AluguelDAOTest.java:252)
+</error>
+    <system-out><![CDATA[Falha na conexao, comando sql = org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+]]></system-out>
+  </testcase>
+  <testcase name="pesquisaTabelaLivroTest" classname="Controller.AluguelDAOTest" time="0.03">
+    <error message="Cannot invoke &quot;java.sql.Connection.prepareStatement(String, int, int)&quot; because &quot;this.connection&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.pesquisaTabelaLivroTest(AluguelDAOTest.java:448)
+</error>
+    <system-out><![CDATA[Falha na conexao, comando sql = org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+]]></system-out>
+  </testcase>
+  <testcase name="registroSimples2Test" classname="Controller.AluguelDAOTest" time="0.027">
+    <error message="Cannot invoke &quot;java.sql.Connection.prepareStatement(String, int, int)&quot; because &quot;this.connection&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.registroSimples2Test(AluguelDAOTest.java:167)
+</error>
+    <system-out><![CDATA[Falha na conexao, comando sql = org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+]]></system-out>
+  </testcase>
+  <testcase name="registroSimples3Test" classname="Controller.AluguelDAOTest" time="0.032">
+    <error message="Cannot invoke &quot;java.sql.Connection.prepareStatement(String, int, int)&quot; because &quot;this.connection&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.registroSimples3Test(AluguelDAOTest.java:196)
+</error>
+    <system-out><![CDATA[Falha na conexao, comando sql = org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+]]></system-out>
+  </testcase>
+  <testcase name="registroSimples4Test" classname="Controller.AluguelDAOTest" time="0.03">
+    <error message="Cannot invoke &quot;java.sql.Connection.prepareStatement(String, int, int)&quot; because &quot;this.connection&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.registroSimples4Test(AluguelDAOTest.java:225)
+</error>
+    <system-out><![CDATA[Falha na conexao, comando sql = org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+]]></system-out>
+  </testcase>
+  <testcase name="registroSimplesTest" classname="Controller.AluguelDAOTest" time="0.034">
+    <error message="Cannot invoke &quot;java.sql.Connection.prepareStatement(String, int, int)&quot; because &quot;this.connection&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String, int, int)" because "this.connection" is null
+	at Controller.AluguelDAOTest.setCaminhosAluguel(AluguelDAOTest.java:66)
+	at Controller.AluguelDAOTest.registroSimplesTest(AluguelDAOTest.java:140)
+</error>
+    <system-out><![CDATA[Falha na conexao, comando sql = org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+]]></system-out>
+  </testcase>
 </testsuite>
